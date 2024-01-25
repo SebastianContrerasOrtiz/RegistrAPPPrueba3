@@ -11,7 +11,7 @@ import { AlertController, NavController } from '@ionic/angular';
 export class RegistroPage implements OnInit {
 
   formularioRegistro: FormGroup;
-  nombre!: string;  // Agrega esta línea
+  nombre!: string;  // Agrega esta línea    //registro //se hizo registro
 
   constructor(public fb: FormBuilder,
     public alertController: AlertController, public router: Router, public navCtrl: NavController) {
@@ -70,4 +70,6 @@ export class RegistroPage implements OnInit {
     }
   }
 }
+
+
 
